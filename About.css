@@ -1,0 +1,18 @@
+/* About-specific CSS */
+.about-section {
+    text-align: center;
+    padding: 80px 20px;
+  }
+  
+  .about-section h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .about-section p {
+    font-size: 1.1rem;
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.5;
+  }
+  

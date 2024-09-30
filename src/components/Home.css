@@ -1,0 +1,29 @@
+/* Home-specific CSS */
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background-color: #bf0f0f;
+  }
+  
+  .hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero button {
+    padding: 10px 20px;
+    background-color: #0ad39d;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .hero button:hover {
+    background-color: #af7878;
+  }
+  

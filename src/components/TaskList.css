@@ -1,0 +1,13 @@
+/* TaskList specific styles */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background-color: #0d77e1;
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(3, 121, 147, 0.1);
+}

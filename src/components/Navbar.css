@@ -1,0 +1,58 @@
+/* Updated Navbar Styles */
+nav {
+  background: linear-gradient(90deg, #ff5f6d, #ffc371);
+  padding: 15px 30px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+nav ul li:hover {
+  color: #ffdd57;
+}
+
+nav ul li.active {
+  color: #00ff9d;
+  text-decoration: underline;
+}
+
+/* Optional Nav Button Styles */
+nav .nav-btn {
+  background-color: #00c1d4;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 50px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+nav .nav-btn:hover {
+  background-color: #00798c;
+  transform: translateY(-3px);
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: inherit;
+}

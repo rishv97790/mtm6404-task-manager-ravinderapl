@@ -1,11 +1,47 @@
-# Branch Iteration-3
-# React + Vite
+# TODO App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Server Side Live Link
 
-Currently, two official plugins are available:
+ https://task-manager-ten-tau.vercel.app/api/v1/tasks
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-- ![image](https://github.com/user-attachments/assets/26f26186-7c44-4c1e-bc77-3985fac0a1fc)
+## Server Side Code Link
+
+ https://github.com/AbhijitSarker/task-manager
+
+
+### Folder Structure:
+   	/src
+	   	/components  
+		/firebase
+		/hooks  
+		/layout  
+		/pages
+		/provider
+		/routes
+		/utils  
+	
+
+### Frontend Technologies:
+
+- React
+- React Router
+- Tailwind
+
+### Backend Technologies
+
+- Node
+- Express
+- MongoDB
+- Mongoose
+
+### Used Packages:
+
+- Axios
+- Firebase
+- Sweet Alert 2
+- React Date Picker
+- React Icons
+- React Helmet async
+- React Hook Form
+
 

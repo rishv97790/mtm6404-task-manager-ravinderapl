@@ -1,11 +1,46 @@
-# Branch Iteration-3
-# React + Vite
+# Todos App
+This is a dynamically generated Todos App using JS and Webpack. It allows the user to create and delete projects and todos. Todos can be edited afterwards. Each project shows the todos contained in it and individual todos are listed with their title, due date, time left before deadline, priority and description. Forms are presented in Bootstrap modals.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Undeleted projects and todos are persisted using the browser's localStorage, when you open the app in the same browser, all your projects and todos remain available indefinitely.
 
-Currently, two official plugins are available:
+![App Screenshot](./app-screenshot.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-- ![image](https://github.com/user-attachments/assets/26f26186-7c44-4c1e-bc77-3985fac0a1fc)
+## Built with
+- Vanilla JavaScript/ES6
+- Webpack
+- date-fns
+- HTML
+- Bootstrap
 
+## Live version
+Available [here](https://rawcdn.githack.com/anewman15/to-dos-app/efd8055b4d486517555464870644e9dd75537dc9/dist/index.html)
+
+## Deployment
+1. Open your Terminal from a folder of your choice and clone [this repo](https://github.com/anewman15/to-dos-app/)
+2. Navigate to the project directory
+3. Run `npm install`
+4. Then run `npm run start`
+5. Open `http://localhost:8080/dist/index.html` in your browser and navigate around the site.
+6. Create Projects and Todos, edit them and delete them
+
+
+## Testing
+1. Run `npm run test` or `npm run test unit` in the Terminal to run the tests
+
+## Author
+
+👤 **Abdullah Numan**
+
+- Github:   https://github.com/anewman15
+- Twitter:  https://twitter.com/aanuman15
+- Linkedin: https://www.linkedin.com/in/aanuman15/
+- Email:    anewman15@hotmail.com
+
+##    Contributing
+
+Contributions, issues and feature requests are welcome!
+Please send your feedback [here](https://github.com/anewman15/to-dos-app/issues)
+
+## Show your support
+
+Give a ⭐️ if you like this project!
